@@ -237,3 +237,17 @@ if (contactForm) {
         sync();
     });
 })();
+(function () {
+    const defaults = document.querySelectorAll(".proj-tools option[data-short]");
+    if (!defaults.length) return;
+    const query = window.matchMedia("(max-width: 800px)");
+
+    function apply() {
+        defaults.forEach((opt) => {
+            opt.textContent = query.matches ? opt.dataset.short : opt.dataset.full;
+        });
+    }
+
+    apply();
+    query.addEventListener("change", apply);
+})();
