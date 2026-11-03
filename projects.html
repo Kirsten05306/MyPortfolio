@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Kirsten Elsenique</title>
+    <link rel="icon" href="assets/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+    <div class="container nav-container">
+        <a href="Homepage.html" class="logo"><img src="assets/logo.jpg" alt="KE logo" class="logo-img"><span>Kirsten</span></a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+        <nav aria-label="Main navigation">
+        <ul class="nav-links">
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html" class="active" aria-current="page">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </div>
+</header>
+<main>
+<section class="page-head">
+    <div class="container page-head-inner">
+        <div class="page-head-text">
+            <span class="head-ico"><svg class="ico " width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h4.5l2 2.5H19a2 2 0 0 1 2 2z"/><path d="M9 13v2M12 12.5v3M15 13v2"/></svg></span>
+            <div><h1>My Projects</h1><p>A collection of my projects and creative work</p></div>
+        </div>
+        
+    </div>
+</section>
+<section class="content">
+    <div class="container">
+        <label class="search"><svg class="ico " width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path d="m21 21-4.3-4.3"/></svg><input type="text" id="project-search" placeholder="Search projects..." aria-label="Search projects"></label>
+        <div class="proj-tools">
+            <label class="select"><select id="project-category" aria-label="All Categories"><option value="all" data-full="All Categories" data-short="Topic">All Categories</option><option>Digital Art</option><option>Logo Design</option><option>Poster Design</option><option>UI/UX Design</option></select><svg class="ico " width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></label>
+            <label class="select"><select id="project-tech" aria-label="All Technologies"><option value="all" data-full="All Technologies" data-short="Tools">All Technologies</option><option>Canva</option><option>Figma</option><option>GIMP</option></select><svg class="ico " width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></label>
+            <label class="select"><select id="project-year" aria-label="All Years"><option value="all" data-full="All Years" data-short="Year">All Years</option><option>2026</option></select><svg class="ico " width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></label>
+            <label class="select"><select id="project-type" aria-label="All Types"><option value="all" data-full="All Types" data-short="Type">All Types</option><option>Academic</option><option>Branding</option><option>Personal</option><option>Poster</option><option>Wireframe</option></select><svg class="ico " width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></label>
+        </div>
+        <div class="proj-list">
+            <article class="proj-row" data-name="Strawberry" data-category="Digital Art" data-tech="GIMP" data-year="2026" data-type="Academic">
+    <a href="project-strawberry.html" class="proj-thumb"><img src="assets/strawberry.png" alt="Strawberry" class="" onerror="this.onerror=null;this.src='assets/image-placeholder.svg'"></a>
+    <div class="proj-body">
+        <h3><a href="project-strawberry.html">Strawberry</a></h3>
+        <span class="meta">August 5, 2026</span>
+        <p>This strawberry illustration features a vibrant red fruit with yellow seeds and green leaves, combining bright colors and detailed shading for a playful, hand-drawn design.</p>
+        <span class="pill">GIMP</span>
+    </div>
+    <a href="project-strawberry.html" class="proj-go" aria-label="View Strawberry"><svg class="ico " width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+</article><article class="proj-row" data-name="KE Logo" data-category="Logo Design" data-tech="GIMP" data-year="2026" data-type="Personal">
+    <a href="project-ke-logo.html" class="proj-thumb"><img src="assets/ke-logo/icon.jpg" alt="KE Logo" class="" onerror="this.onerror=null;this.src='assets/image-placeholder.svg'"></a>
+    <div class="proj-body">
+        <h3><a href="project-ke-logo.html">KE Logo</a></h3>
+        <span class="meta">Logo Design · August 31, 2026</span>
+        <p>A personal brand mark built from my initials, combining a circle and a diamond frame with a bold purple and black monogram.</p>
+        <span class="pill">GIMP</span>
+    </div>
+    <a href="project-ke-logo.html" class="proj-go" aria-label="View KE Logo"><svg class="ico " width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+</article><article class="proj-row" data-name="Brew Haven Logo" data-category="UI/UX Design" data-tech="GIMP" data-year="2026" data-type="Branding">
+    <a href="project-brew-haven.html" class="proj-thumb"><img src="assets/brewhaven/logo.jpg" alt="Brew Haven Logo" class="" onerror="this.onerror=null;this.src='assets/image-placeholder.svg'"></a>
+    <div class="proj-body">
+        <h3><a href="project-brew-haven.html">Brew Haven Logo</a></h3>
+        <span class="meta">UI/UX Design · September 1, 2026</span>
+        <p>Brew Haven is a coffee shop brand that symbolizes warmth and comfort through its heart-shaped coffee design and cozy brown and golden colors.</p>
+        <span class="pill">GIMP</span>
+    </div>
+    <a href="project-brew-haven.html" class="proj-go" aria-label="View Brew Haven Logo"><svg class="ico " width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+</article><article class="proj-row" data-name="Jack 'n Jill" data-category="Poster Design" data-tech="Canva" data-year="2026" data-type="Poster">
+    <a href="project-jack-n-jill.html" class="proj-thumb"><img src="assets/jack-n-jill.jpg" alt="Jack 'n Jill" class="" onerror="this.onerror=null;this.src='assets/image-placeholder.svg'"></a>
+    <div class="proj-body">
+        <h3><a href="project-jack-n-jill.html">Jack 'n Jill</a></h3>
+        <span class="meta">Poster Design · September 16, 2026</span>
+        <p>Jack 'n Jill's project design highlights its colorful snack products with a playful and energetic style, celebrating its tagline, “Small Snacks for Big Moments,” and its legacy since 1966.</p>
+        <span class="pill">Canva</span>
+    </div>
+    <a href="project-jack-n-jill.html" class="proj-go" aria-label="View Jack 'n Jill"><svg class="ico " width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+</article><article class="proj-row" data-name="Portfolio Wireframe" data-category="UI/UX Design" data-tech="Figma" data-year="2026" data-type="Wireframe">
+    <a href="project-portfolio-wireframe.html" class="proj-thumb top"><img src="assets/wireframe/home.jpg" alt="Portfolio Wireframe" class="" onerror="this.onerror=null;this.src='assets/image-placeholder.svg'"></a>
+    <div class="proj-body">
+        <h3><a href="project-portfolio-wireframe.html">Portfolio Wireframe</a></h3>
+        <span class="meta">UI/UX Design · October 20, 2026</span>
+        <p>A complete wireframe and visual design for this portfolio website, covering the layout, typography and purple color palette of every page.</p>
+        <span class="pill">Figma</span>
+    </div>
+    <a href="project-portfolio-wireframe.html" class="proj-go" aria-label="View Portfolio Wireframe"><svg class="ico " width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+</article>
+        </div>
+        <p class="empty" id="no-results" hidden>No projects match your search.</p>
+    </div>
+</section>
+</main>
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="socials "><a href="https://www.facebook.com/k.elsenique" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="ico " width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.500 2h-3a5 5 0 0 0-5 5v3h-3v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h2z"/></svg></a><a href="https://www.instagram.com/_.zehnn/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="ico " width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.500" y="2.500" width="19" height="19" rx="5.500"/><circle cx="12" cy="12" r="4.200"/><path d="M17.600 6.400h.01"/></svg></a><a href="https://github.com/Kirsten05306" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="ico " width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-4.5 1.4-4.5-2.4-6.3-3m12.3 6v-3.3a3 3 0 0 0-.8-2.3c2.7-.3 5.5-1.3 5.5-6a4.7 4.7 0 0 0-1.3-3.2 4.4 4.4 0 0 0-.1-3.2s-1-.3-3.4 1.3a11.6 11.6 0 0 0-6 0C6.5 1.6 5.500 2 5.500 2a4.400 4.400 0 0 0-.1 3.200A4.700 4.700 0 0 0 4 8.400c0 4.700 2.800 5.700 5.500 6A3 3 0 0 0 8.700 16.700V22"/></svg></a><a href="mailto:kirstenelsenique06@gmail.com" aria-label="Email"><svg class="ico " width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6.5L21 7"/></svg></a></div>
+        <p>&copy; 2026 Kirsten Elsenique</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
